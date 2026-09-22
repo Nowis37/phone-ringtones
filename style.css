@@ -1,0 +1,12 @@
+:root { --ink:#1C1C1E; --sub:#6C6C70; --ground:#F2F2F7; --card:#fff; --tint:#FF5A4F; }
+@media (prefers-color-scheme: dark) { :root { --ink:#fff; --sub:#98989D; --ground:#000; --card:#1C1C1E; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--ground); color:var(--ink); font:17px/1.55 -apple-system, system-ui, "Segoe UI", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
+h1 { font-size: 32px; line-height: 1.15; letter-spacing: -.5px; margin: 0 0 6px; }
+h2 { font-size: 20px; margin: 32px 0 8px; }
+p, li { color: var(--ink); }
+.sub { color: var(--sub); margin: 0 0 24px; }
+.card { background: var(--card); border-radius: 18px; padding: 18px 20px; margin: 16px 0; }
+a { color: var(--tint); }
+nav { display:flex; gap:16px; font-size:15px; margin-bottom: 28px; }
