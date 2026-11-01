@@ -132,6 +132,12 @@ footer a { color: var(--sub); }
 .promo h2 { margin: 0; font-size: 28px; }
 .promo p { margin: 0; color: var(--sub); }
 .promo .phone { width: 170px; justify-self: center; margin-bottom: -90px; }
+.updated { margin: 10px 0 0; font-size: 14px; color: var(--sub); }
+.article ul.bullets { margin: 14px 0 0; padding-left: 1.2em; display: grid; gap: 8px; }
+.article ul.bullets li::marker { color: var(--violet); }
+.guides a.all { background: var(--lilac); color: var(--violet-deep); }
+.hub .topic { padding: 0; margin-top: 40px; }
+.hub .topic h2 { font-size: clamp(22px, 3vw, 26px); margin-top: 0; }
 .related { margin-top: 56px; }
 .related h2 { font-size: 24px; }
 
