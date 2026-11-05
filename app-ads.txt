@@ -1,6 +1,8 @@
 # Phone Ringtones: who may sell its ad space.
 # Google AdMob
 google.com, pub-6054383362147831, DIRECT, f08c47fec0942fa0
+# Pangle (bidding through AdMob, from 1.5)
+pangleglobal.com, 5045757, DIRECT
 # Liftoff Monetize (Vungle)
 vungle.com, 6acf8c850c69d6b177178e9c, DIRECT, c107d686becd2d77
 # Unity Ads, and the resellers Unity works with (Unity's own list)
